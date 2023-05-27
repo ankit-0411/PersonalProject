@@ -6,10 +6,10 @@ const RestaurantCard = ({ resData }) => {
   const { name, costForTwo, cuisines, avgRating, cloudinaryImageId } =
     resData.data;
 
-  console.log("all", cuisines);
+  // console.log("all", cuisines);
 
   let cusine = cuisines.slice(-3);
-  console.log("cuisines===>", cusine);
+  // console.log("cuisines===>", cusine);
 
   return (
     <div className="res-card">
