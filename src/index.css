@@ -70,3 +70,9 @@
   width: 180px;
   height: 360px;
 }
+.search {
+  padding: 10px;
+}
+.filter {
+  display: flex;
+}

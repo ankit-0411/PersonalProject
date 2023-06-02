@@ -19,7 +19,7 @@ const Header = () => {
             className="login"
             onClick={() => {
               // SetLogBtn("LogOut");
-              LogBtn === "Login" ? SetLogBtn("LogOut") : SetLogBtn("Login");
+              LogBtn === "Login" ? SetLogBtn("LogOut") : SetLogBtn("LogIn");
             }}
           >
             {LogBtn}
